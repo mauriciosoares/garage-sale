@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="header">
+      <div class="site-info">
+        <h1>Joy's Garage Sale</h1>
+        <div class="sub-header">
+          We're leaving Berlin, so we decided to sell everything!
+        </div>
+      </div>
+
+      <div class="owner-info">
+
+      </div>
+    </div>
+    <div class="products">
+      <div class="product">
+        <div class="carousel-holder">
+          <img src="next.png" id="arrow-next-p1" class="arrows arrow-right" />
+          <img src="next.png" id="arrow-prev-p1" class="arrows arrow-left" />
+          <div id="p1" class="carousel">
+            <img src="https://picsum.photos/100/100" />
+            <img src="https://picsum.photos/100/100" />
+            <img src="https://picsum.photos/100/100" />
+            <img src="https://picsum.photos/100/100" />
+          </div>
+          <div class="description">
+            <div class="show">Show Description</div>
+            Nice space, good for computers and stuff
+          </div>
+        </div>
+        <div class="details">
+          <div class="name">
+            Computer's Desk
+          </div>
+          <div class="prices">
+            <div class="original-price">
+              Original Price: <span class="red">159 EUR</span>
+            </div>
+            <div class="price">
+              Selling Price: <span class="green">50 EUR</span>
+            </div>
+            <div class="link-to-product">
+              <a href="https://www.xxxlutz.de/p/linea-natura-schreibtisch-buche-massiv-buchefarben-001665000401" target="_blank">
+                link to product
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./siema.min.js"></script>
+    <script>
+      document.querySelectorAll('.carousel').forEach(item => {
+        const nextArrow = document.querySelector('#arrow-next-' + item.id)
+        const prevArrow = document.querySelector('#arrow-prev-' + item.id)
+        if (item.querySelectorAll('img').length === 1) {
+          nextArrow.parentNode.removeChild(nextArrow)
+          prevArrow.parentNode.removeChild(prevArrow)
+          return
+        }
+        const siema = new Siema({
+          selector: '#' + item.id
+        });
+        nextArrow.addEventListener('click', () => {
+          siema.next()
+        })
+
+        prevArrow.addEventListener('click', () => {
+          siema.prev()
+        })
+      })
+    </script>
+  </body>
+</html>

@@ -16,63 +16,30 @@ a {
 
 /* products grid */
 .products {
-  transition: all .5s ease-in-out;
-  column-gap: 30px;
-  column-fill: initial;
   max-width: 1400px;
   margin: auto;
+  text-align: center;
 }
 
 /* products product */
 .products .product {
   margin-bottom: 30px;
   display: inline-block;
-  /* Fix the misalignment of products */
-  vertical-align: top;
-  /* Keep the product on the very top */
   width: 100%;
-}
-
-/* Bordered products */
-.products.bordered {
-  column-rule: 1px solid #eee;
-  column-gap: 50px;
-}
-
-.products.bordered .product {
-  padding-bottom: 25px;
-  margin-bottom: 25px;
-  border-bottom: 1px solid #eee;
-}
-
-/* Gutterless products */
-.products.gutterless {
-  column-gap: 0;
-}
-
-.products.gutterless .product {
-  margin-bottom: 0;
+  margin: 0.5%;
 }
 
 /* products on tablets */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .products {
-    column-count: 2;
-  }
+@media only screen and (min-width: 480px) and (max-width: 1023px) {
+.products .product {
+  width: 48%;
+}
 }
 
 /* products on big screens */
 @media only screen and (min-width: 1024px) {
-  .desc {
-    font-size: 1.25em;
-  }
-
-  .intro {
-    letter-spacing: 1px;
-  }
-
-  .products {
-    column-count: 3;
+  .products .product {
+    width: 32%;
   }
 }
 
@@ -81,11 +48,14 @@ a {
   overflow: hidden;
 }
 
+.product .carousel-holder:hover .arrows {
+  opacity: .6;
+}
+
 .description {
   position: absolute;
-  top: 90%;
-  height: 110%;
-  padding: 20% 10% 10% 10%;
+  padding: calc(40px + 10%) 10% 10% 10%;
+  height: 40px;
   width: 100%;
   z-index: 1;
   background: rgba(0,0,0,0.7);
@@ -94,19 +64,25 @@ a {
   transition: .3s;
   font-weight: lighter;
   font-size: 20px;
+  top: calc(100% - 40px);
+}
+
+.description:hover {
+  top: -40px;
+  height: calc(100% + 40px);
 }
 
 .description .show {
   position: absolute;
-  top: 2.2%;
+  top: 7%;
   left: 50%;
   transform: translateX(-50%);
   font-weight: lighter;
   font-size: 14px;
 }
 
-.description:hover {
-  top: -10%;
+.description:hover .show {
+  top: 0;
 }
 
 .product .carousel img {
@@ -130,6 +106,8 @@ a {
   top: 50%;
   margin-top: -32px;
   transition: .3s;
+  background: rgba(0,0,0,0.6);
+  padding: 20px 0px 15px;
 }
 
 .product .arrows:hover {
@@ -156,6 +134,10 @@ a {
 .sub-header {
   font-size: 24px;
   font-weight: lighter;
+}
+
+.purple {
+  color: purple;
 }
 
 .red {

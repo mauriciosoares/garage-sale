@@ -39,6 +39,7 @@
           </div>
           <div class="description">
             <div class="show">Show Description</div>
+            <div class="hide">Hide Description</div>
             Nice space, good for computers and stuff
           </div>
         </div>
@@ -80,6 +81,7 @@
           </div>
           <div class="description">
             <div class="show">Show Description</div>
+            <div class="hide">Hide Description</div>
             Nice space, good for computers and stuff
           </div>
         </div>
@@ -122,6 +124,7 @@
           </div>
           <div class="description">
             <div class="show">Show Description</div>
+            <div class="hide">Hide Description</div>
             Nice space, good for computers and stuff
           </div>
         </div>
@@ -164,6 +167,7 @@
           </div>
           <div class="description">
             <div class="show">Show Description</div>
+            <div class="hide">Hide Description</div>
             Nice space, good for computers and stuff
           </div>
         </div>
@@ -211,7 +215,18 @@
         prevArrow.addEventListener('click', () => {
           siema.prev()
         })
-      })
+      });
+
+      document.querySelectorAll('.description').forEach(item => {
+        item.addEventListener('click', () => {
+          const isOpen = item.classList.value.indexOf('open') !== -1
+          if (isOpen) {
+            item.classList.remove('open')
+          } else {
+            item.classList.add('open')
+          }
+        })
+      });
     </script>
   </body>
 </html>

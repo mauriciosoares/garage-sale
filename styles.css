@@ -67,7 +67,7 @@ a {
   top: calc(100% - 40px);
 }
 
-.description:hover {
+.description.open {
   top: -40px;
   height: calc(100% + 40px);
 }
@@ -79,9 +79,20 @@ a {
   transform: translateX(-50%);
   font-weight: lighter;
   font-size: 14px;
+  cursor: pointer;
 }
 
-.description:hover .show {
+.description .hide {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: lighter;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.description.open .show {
   top: 0;
 }
 

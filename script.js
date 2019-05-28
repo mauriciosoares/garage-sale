@@ -55,7 +55,7 @@ class Hello extends React.Component {
               <div className="description">
                 <div className="show">Show Description</div>
                 <div className="hide">Hide Description</div>
-                {p.description}
+                <span>{p.description}</span>
               </div>
             </div>
             <div className="details">

@@ -65,16 +65,27 @@ a {
   z-index: 1;
   background: rgba(0,0,0,0.7);
   color: white;
-  text-align: center;
   transition: .3s;
   font-weight: lighter;
   font-size: 20px;
   top: calc(100% - 40px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description span {
+  opacity: 0;
+  transition: .3s;
 }
 
 .description.open {
   top: -40px;
   height: calc(100% + 40px);
+}
+
+.description.open span {
+  opacity: 1;
 }
 
 .description .show {

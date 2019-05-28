@@ -166,4 +166,36 @@ window.products = [{
   sellingPrice: 250,
   storeLink: null,
   availability: 'July'
+}, {
+  images: 1,
+  description: 'Excelent conditions :)',
+  name: 'Toaster',
+  paidPrice: 25,
+  sellingPrice: 10,
+  storeLink: null,
+  availability: 'Today'
+}, {
+  images: 2,
+  description: 'Excelent conditions :)',
+  name: 'Water Heater',
+  paidPrice: 25,
+  sellingPrice: 10,
+  storeLink: null,
+  availability: 'Today'
+}, {
+  images: 1,
+  description: 'This Blender is excelent, the cup is made of thick glass',
+  name: 'Blender',
+  paidPrice: 130,
+  sellingPrice: 40,
+  storeLink: 'https://www.amazon.de/Philips-HR2195-08-Standmixer-Milchshakes/dp/B00UTJQ1RI/ref=asc_df_B00UTJQ1RI/?tag=googshopde-21&linkCode=df0&hvadid=231900326073&hvpos=1o1&hvnetw=g&hvrand=16739498211799897608&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9043060&hvtargid=pla-422531396823&psc=1&th=1&psc=1',
+  availability: 'July'
+}, {
+  images: 1,
+  description: 'Excelent conditions :)',
+  name: 'Air Fryer',
+  paidPrice: 190,
+  sellingPrice: 60,
+  storeLink: 'https://www.saturn.de/de/product/_philips-hd-9640-00-airfryer-turbostar-2259974.html',
+  availability: 'Today'
 }]

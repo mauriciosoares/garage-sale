@@ -9,7 +9,7 @@ window.products = [{
 }, {
   images: 1,
   description: `Unfortunately one of the stool is not keeping the height once you adjust it, and it has some cat scratches.`,
-  name: 'Bar stool (For both)',
+  name: 'Bar stool (2 pieces)',
   paidPrice: 80,
   sellingPrice: 20,
   storeLink: 'https://www.hoeffner.de/artikel/13318178',

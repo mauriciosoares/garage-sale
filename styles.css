@@ -2,6 +2,11 @@
 * {
   box-sizing: border-box;
 }
+
+a {
+  cursor: pointer;
+}
+
 body {
   background: #f9f9f9;
   color: #484848;
@@ -110,6 +115,10 @@ a {
   transform: rotate(180deg);
 }
 
+.site-info {
+  width: 100%;
+}
+
 .product .arrows {
   cursor: pointer;
   position: absolute;
@@ -126,6 +135,10 @@ a {
 }
 
 .header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #f9f9f9;
   max-width: 1400px;
   margin: auto;
   border-bottom: 1px solid #484848;
@@ -145,6 +158,9 @@ a {
 .sub-header {
   font-size: 24px;
   font-weight: lighter;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .purple {
@@ -179,4 +195,12 @@ a {
 
 .products .price {
   font-weight: bold;
+}
+
+.modal {
+  display: none;
+}
+
+.tingle-modal {
+  user-select: auto !important;
 }

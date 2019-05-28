@@ -6,227 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="tingle.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet">
+
+    <script src="https://unpkg.com/react@latest/umd/react.development.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react-dom@latest/umd/react-dom.development.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js" crossorigin="anonymous"></script>
   </head>
   <body>
+    <div class="modal">
+      <h1>Contact Information</h1>
+      <p>Send an email to <a href="mailto:m.soares2603@gmail.com">m.soares2603@gmail.com</a> with the furniture you wish to check. We'll be at home 24/7, we live in <a target="_blank" href="https://goo.gl/maps/oAkoZiJqa98bagQ4A">Am Filmlager 10, Kopenick</a></p>
+      <p>
+        Keep in mind that moving the furniture from our apartment to yours is <b>your responsability</b>. Also some of the furniture are <b>very heavy</b> (like the wardrobe and the Trolley Table), so don't come by yourself when taking heavy items (we don't want you leaving with injuries). But we'll help you taking it to your car :)
+      </p>
+      <p>
+        Not all of the items are available for selling today, because we'll be in the apartment until the end of July. But as our leaving date gets closer, we'll sell the items. Just let me know which furniture you wish to buy in advance, and I can reserve it for you :)
+      </p>
+      <p>
+        We also have a BUNCH of things that are not listed in the website, but we wish to sell/donate (like plates, pans, and others...)
+      </p>
+    </div>
     <div class="header">
       <div class="site-info">
         <h1><span class="purple">Joy</span>'s Garage Sale</h1>
         <div class="sub-header">
-          We're leaving Berlin, so we decided to sell everything!
+          <span>We're leaving Berlin, so we decided to sell everything!</span>
+          <b><a class="open-modal">Contact us</a></b>
         </div>
-      </div>
-
-      <div class="owner-info">
-
       </div>
     </div>
-    <div class="products">
-      <!-- PRODUCT -->
-      <div class="product">
-        <div class="carousel-holder">
-          <div id="arrow-next-p1" class="arrows arrow-right">
-            <img src="next.png" />
-          </div>
-          <div id="arrow-prev-p1" class="arrows arrow-left">
-            <img src="next.png" />
-          </div>
-          <div id="p1" class="carousel">
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-          </div>
-          <div class="description">
-            <div class="show">Show Description</div>
-            <div class="hide">Hide Description</div>
-            Nice space, good for computers and stuff
-          </div>
-        </div>
-        <div class="details">
-          <div class="name">
-            Computer's Desk
-          </div>
-          <div class="prices">
-            <div class="original-price">
-              Paid Price: <span class="red">186 EUR</span>
-            </div>
-            <div class="price">
-              Selling Price: <span class="green">50 EUR</span>
-            </div>
-            <div class="link-to-product">
-              <a href="https://www.xxxlutz.de/p/linea-natura-schreibtisch-buche-massiv-buchefarben-001665000401" target="_blank">
-                Link to store where it was bought
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /PRODUCT -->
-
-      <!-- PRODUCT -->
-      <div class="product">
-        <div class="carousel-holder">
-          <div id="arrow-next-p2" class="arrows arrow-right">
-            <img src="next.png" />
-          </div>
-          <div id="arrow-prev-p2" class="arrows arrow-left">
-            <img src="next.png" />
-          </div>
-          <div id="p2" class="carousel">
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-          </div>
-          <div class="description">
-            <div class="show">Show Description</div>
-            <div class="hide">Hide Description</div>
-            Nice space, good for computers and stuff
-          </div>
-        </div>
-        <div class="details">
-          <div class="name">
-            Computer's Desk
-          </div>
-          <div class="prices">
-            <div class="original-price">
-              Paid Price: <span class="red">186 EUR</span>
-            </div>
-            <div class="price">
-              Selling Price: <span class="green">50 EUR</span>
-            </div>
-            <div class="link-to-product">
-              <a href="https://www.xxxlutz.de/p/linea-natura-schreibtisch-buche-massiv-buchefarben-001665000401"
-                target="_blank">
-                Link to store where it was bought
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /PRODUCT -->
-
-      <!-- PRODUCT -->
-      <div class="product">
-        <div class="carousel-holder">
-          <div id="arrow-next-p3" class="arrows arrow-right">
-            <img src="next.png" />
-          </div>
-          <div id="arrow-prev-p3" class="arrows arrow-left">
-            <img src="next.png" />
-          </div>
-          <div id="p3" class="carousel">
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-          </div>
-          <div class="description">
-            <div class="show">Show Description</div>
-            <div class="hide">Hide Description</div>
-            Nice space, good for computers and stuff
-          </div>
-        </div>
-        <div class="details">
-          <div class="name">
-            Computer's Desk
-          </div>
-          <div class="prices">
-            <div class="original-price">
-              Paid Price: <span class="red">186 EUR</span>
-            </div>
-            <div class="price">
-              Selling Price: <span class="green">50 EUR</span>
-            </div>
-            <div class="link-to-product">
-              <a href="https://www.xxxlutz.de/p/linea-natura-schreibtisch-buche-massiv-buchefarben-001665000401"
-                target="_blank">
-                Link to store where it was bought
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /PRODUCT -->
-
-      <!-- PRODUCT -->
-      <div class="product">
-        <div class="carousel-holder">
-          <div id="arrow-next-p4" class="arrows arrow-right">
-            <img src="next.png" />
-          </div>
-          <div id="arrow-prev-p4" class="arrows arrow-left">
-            <img src="next.png" />
-          </div>
-          <div id="p4" class="carousel">
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-            <img src="https://picsum.photos/100/100" />
-          </div>
-          <div class="description">
-            <div class="show">Show Description</div>
-            <div class="hide">Hide Description</div>
-            Nice space, good for computers and stuff
-          </div>
-        </div>
-        <div class="details">
-          <div class="name">
-            Computer's Desk
-          </div>
-          <div class="prices">
-            <div class="original-price">
-              Paid Price: <span class="red">186 EUR</span>
-            </div>
-            <div class="price">
-              Selling Price: <span class="green">50 EUR</span>
-            </div>
-            <div class="link-to-product">
-              <a href="https://www.xxxlutz.de/p/linea-natura-schreibtisch-buche-massiv-buchefarben-001665000401"
-                target="_blank">
-                Link to store where it was bought
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /PRODUCT -->
-
-    </div>
-
+    <div id="root"></div>
+    <script src="./data.js" data-plugins="transform-es2015-modules-umd" type="text/babel"></script>
     <script src="./siema.min.js"></script>
-    <script>
-      document.querySelectorAll('.carousel').forEach(item => {
-        const nextArrow = document.querySelector('#arrow-next-' + item.id)
-        const prevArrow = document.querySelector('#arrow-prev-' + item.id)
-        if (item.querySelectorAll('img').length === 1) {
-          nextArrow.parentNode.removeChild(nextArrow)
-          prevArrow.parentNode.removeChild(prevArrow)
-          return
-        }
-        const siema = new Siema({
-          selector: '#' + item.id
-        });
-        nextArrow.addEventListener('click', () => {
-          siema.next()
-        })
-
-        prevArrow.addEventListener('click', () => {
-          siema.prev()
-        })
-      });
-
-      document.querySelectorAll('.description').forEach(item => {
-        item.addEventListener('click', () => {
-          const isOpen = item.classList.value.indexOf('open') !== -1
-          if (isOpen) {
-            item.classList.remove('open')
-          } else {
-            item.classList.add('open')
-          }
-        })
-      });
-    </script>
+    <script src="tingle.min.js"></script>
+    <script src="./script.js" data-plugins="transform-es2015-modules-umd" type="text/babel"></script>
   </body>
 </html>

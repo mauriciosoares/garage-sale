@@ -80,7 +80,7 @@ window.products = [{
   storeLink: 'https://www.xxxlutz.de/p/carryhome-lowboard-akazie-naturfarben-001944001103',
   availability: 'July'
 }, {
-  isReserved: false,
+  isReserved: true,
   images: 2,
   description: 'This TV I already bought used for 100 euros (which was cheap for the size and quality)',
   name: 'TV (Bought it used)',

@@ -40,6 +40,7 @@ class Hello extends React.Component {
       <div className="products">
         {window.products.map((p, i) => (
           <div className="product" key={i}>
+            {p.isReserved ? <div className="reserved">This item is Reserved / Sold</div> : null}
             <div className="carousel-holder">
               <div id={`arrow-next-p${i + 1}`} className="arrows arrow-right">
                 <img src="next.png" />

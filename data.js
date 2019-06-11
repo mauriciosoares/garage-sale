@@ -143,7 +143,7 @@ window.products = [{
   storeLink: null,
   availability: 'Today'
 }, {
-  isReserved: true,
+  isReserved: false,
   images: 2,
   description: 'Simple night stand, in good conditions',
   name: 'Night Stand',

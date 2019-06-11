@@ -53,7 +53,7 @@ window.products = [{
   storeLink: 'https://www.ikea.com/de/de/p/norsborg-3er-sofa-finnsta-weiss-weiss-birke-s39124943/',
   availability: 'July'
 }, {
-  isReserved: false,
+  isReserved: true,
   images: 1,
   description: 'From Ikea, these are in excelent conditions, and they have one extenstion on top',
   name: '4 Bookshelves (With 1 extension)',
@@ -116,7 +116,7 @@ window.products = [{
   storeLink: 'https://www.xxxlutz.de/p/linea-natura-schreibtisch-buche-massiv-buchefarben-001665000401',
   availability: 'July'
 }, {
-  isReserved: true,
+  isReserved: false,
   images: 2,
   description: 'This keyboard is brand new, was bought a couple of months ago, and unfortunately was not very used... Comes with the stand and the chair',
   name: 'Yamaha NP-12 B Set',
@@ -134,7 +134,7 @@ window.products = [{
   storeLink: 'https://www.musicstore.de/en_DE/EUR/Schecter-C-6-Deluxe-Satin-Black/art-GIT0036854-000',
   availability: 'Today'
 }, {
-  isReserved: true,
+  isReserved: false,
   images: 3,
   description: 'This projector is used in my bedroom for watching movies. Unfortunately the fans make quite a lot of noise, and the image has a very small smudge on it, but the image quality is excelent (720p)',
   name: 'CRENOVA Projector',
@@ -188,7 +188,7 @@ window.products = [{
   storeLink: null,
   availability: 'July'
 }, {
-  isReserved: true,
+  isReserved: false,
   images: 1,
   description: 'Excelent conditions :)',
   name: 'Toaster',
@@ -197,7 +197,7 @@ window.products = [{
   storeLink: null,
   availability: 'Today'
 }, {
-  isReserved: true,
+  isReserved: false,
   images: 2,
   description: 'Excelent conditions :)',
   name: 'Water Heater',

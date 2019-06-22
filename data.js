@@ -359,7 +359,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Lots of things for bed, like sheet, blankets, pillow cases',
     name: 'Blankets and other stuff (FREE)',
@@ -431,7 +431,7 @@ window.products = [{
     storeLink: 'https://www.amazon.de/Philips-GC3801-60-Dampfb%C3%BCgeleisen-Dampfsto%C3%9F/dp/B016LAUCL4',
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Works perfectly',
     name: 'Ikea floor lamp (3 pieces)',
@@ -454,6 +454,8 @@ window.products = [{
       1: true,
       2: true,
       3: true,
+      4: true,
+      5: true,
       8: true
     }
   }, {
@@ -511,7 +513,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Working just fine',
     name: 'Pressure Pan',
@@ -529,7 +531,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: ':)',
     name: 'IKEA Kitchen Wooden Board',
@@ -556,7 +558,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: ':)',
     name: 'Bubble Level',
@@ -574,7 +576,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 2,
     description: 'Also useful for screwing',
     name: 'Drilling Machine',

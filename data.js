@@ -359,7 +359,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Perfect for smaller areas',
     name: 'Shelf (FREE)',

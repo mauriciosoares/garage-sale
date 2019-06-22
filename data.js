@@ -120,8 +120,8 @@ window.products = [{
   images: 2,
   description: 'This keyboard is brand new, was bought a couple of months ago, and unfortunately was not very used... Comes with the stand and the chair',
   name: 'Yamaha NP-12 B Set',
-  paidPrice: 65,
-  sellingPrice: 80,
+  paidPrice: 200,
+  sellingPrice: 65,
   storeLink: 'https://www.musicstore.de/en_DE/EUR/Yamaha-NP-12-B/art-KEY0004442-000V000112476',
   availability: 'Today'
 }, {

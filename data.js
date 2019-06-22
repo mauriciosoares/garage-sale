@@ -1,4 +1,13 @@
 window.products = [{
+  isReserved: false,
+  images: 1,
+  description: 'Start Juggling in no time with these magic balls!',
+  name: 'Magic Juggling Balls',
+  paidPrice: 2,
+  sellingPrice: 45000,
+  storeLink: null,
+  availability: 'Today'
+}, {
   isReserved: true,
   images: 3,
   description: 'In perfect conditions :)',
@@ -594,7 +603,7 @@ window.products = [{
   }]
 
 window.products = window.products.map((product, index) => Object.assign(product, {
-  id: index + 1
+  id: index
 }))
 
 window.products.sort((a, b) => a.isReserved - b.isReserved)

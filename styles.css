@@ -229,3 +229,14 @@ a {
   color: white;
   font-size: 30px;
 }
+
+.image-label {
+  position: absolute;
+  background: rgba(0,0,0,.5);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  top: 10px;
+  margin-left: 10px;
+  font-size: 30px;
+}

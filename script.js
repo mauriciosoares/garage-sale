@@ -30,10 +30,6 @@ class Hello extends React.Component {
         }
       })
     });
-
-    new LazyLoad({
-      elements_selector: ".lazy"
-    });
   }
   render() {
     return (
@@ -50,7 +46,10 @@ class Hello extends React.Component {
               </div>
               <div id={`p${i + 1}`} className="carousel">
                 {Array(p.images).fill('').map((item, imageIndex) => (
-                  <img className="lazy" key={imageIndex} data-src={`images/p${i + 1}${imageIndex + 1}.jpg`} />
+                  <div>
+                    {p.imageLabel && <div className="image-label">{p.imageLabel} {imageIndex + 1}</div>}
+                    <img className="lazy" key={imageIndex} src={`images/p${p.id}${imageIndex + 1}.jpg`} />
+                  </div>
                 ))}
               </div>
               <div className="description">

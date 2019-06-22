@@ -223,4 +223,236 @@ window.products = [{
   sellingPrice: 60,
   storeLink: 'https://www.saturn.de/de/product/_philips-hd-9640-00-airfryer-turbostar-2259974.html',
   availability: 'Today'
-}]
+  }, {
+    isReserved: false,
+    images: 1,
+    description: `Used for a couple of months, it's been in the box for over a year, almost new`,
+    name: 'Microwave Oven',
+    paidPrice: 150,
+    sellingPrice: 50,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 2,
+    description: 'Quite old, but still functional',
+    name: 'Luggage (FREE)',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 3,
+    description: 'Quite old, has a broken piece on the bottom, but functional',
+    name: 'Luggage (FREE)',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Nothing fancy, but works perfectly, no scratches or dead pixels',
+    name: 'Computer Monitor Samsung',
+    paidPrice: null,
+    sellingPrice: 40,
+    storeLink: null,
+    availability: 'End of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Almost new',
+    name: 'Plant wall hanger',
+    paidPrice: 50,
+    sellingPrice: 20,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'The stand is a bit old, but still works. The microphone is NOT included',
+    name: 'Mic Stand and noise filter (FREE)',
+    paidPrice: 30,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: '2 pieces, 145x300cm each, Almost new Blackout courtains, used for ~4 months.',
+    name: 'IKEA Blackout Courtins',
+    paidPrice: 70,
+    sellingPrice: 25,
+    storeLink: 'https://www.ikea.com/de/de/p/marjun-2-gardinenschals-verdunk-grau-30298424/',
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Just a Fan, working perfectly',
+    name: 'Fan',
+    paidPrice: 50,
+    sellingPrice: 15,
+    storeLink: null,
+    availability: 'End of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'We have quite a few things, you can come over and just take them for free',
+    name: 'Decoration items (including this head)',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Works perfectly',
+    name: 'Weighing Balance',
+    paidPrice: 20,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'A bit old, but works perfectly',
+    name: 'Hair Dryier (FREE)',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'End of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Almost new',
+    name: 'Ladder',
+    paidPrice: 30,
+    sellingPrice: 10,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'A bit old, but works perfectly',
+    name: 'Vacuum Cleaner',
+    paidPrice: 50,
+    sellingPrice: 15,
+    storeLink: null,
+    availability: 'End of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Just a ton of hangers',
+    name: 'Hangers (5 EUR for 15)',
+    paidPrice: 0,
+    sellingPrice: 5,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Lots of things for bed, like sheet, blankets, pillow cases',
+    name: 'Blankets and other stuff (FREE)',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Perfect for smaller areas',
+    name: 'Shelf (FREE)',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Perfect for bigger areas',
+    name: 'Another Shelf (FREE)',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'This mattress comes with its own air system, just plug it in the electricity and it fills automatically',
+    name: 'Inflatable Mattress (Couple)',
+    paidPrice: 60,
+    sellingPrice: 15,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Perfect conditions',
+    name: 'Shopping Trolley',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Used to adjust your back, brand new',
+    name: 'Shoulder Support',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Brand new, was only used once',
+    name: 'Lady Shaver (used once, FREE)',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Very good Iron, works perfectly',
+    name: 'Philips Azur Performer Iron',
+    paidPrice: 60,
+    sellingPrice: 20,
+    storeLink: 'https://www.amazon.de/Philips-GC3801-60-Dampfb%C3%BCgeleisen-Dampfsto%C3%9F/dp/B016LAUCL4',
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Works perfectly',
+    name: 'Ikea floor lamp (3 pieces)',
+    paidPrice: 24,
+    sellingPrice: 10,
+    storeLink: 'https://www.ikea.com/de/de/p/not-deckenfluter-schwarz-20139874/',
+    availability: 'End of July'
+  }, {
+    isReserved: false,
+    images: 9,
+    description: 'We need someone that will take good care of our plants S2, please check the availability of the plant',
+    name: 'Plants, plants, and more plants!',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today',
+    imageLabel: 'Plant'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: '2x 1kg weight, 2x 3kg weight, 2 leg weights and an arm phone holder',
+    name: 'Fitness stuff',
+    paidPrice: 0,
+    sellingPrice: 10,
+    storeLink: null,
+    availability: 'Today'
+  }]
+
+window.products = window.products.map((product, index) => Object.assign(product, {
+  id: index + 1
+}))
+
+window.products.sort((a, b) => a.isReserved - b.isReserved)

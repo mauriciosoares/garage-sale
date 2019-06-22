@@ -352,10 +352,10 @@ window.products = [{
   }, {
     isReserved: false,
     images: 1,
-    description: 'Just a ton of hangers',
-    name: 'Hangers (2 EUR for 15)',
+    description: 'Just a ton of hangers, just tell me how many you want',
+    name: 'Hangers (Around 160)',
     paidPrice: 0,
-    sellingPrice: 5,
+    sellingPrice: 0,
     storeLink: null,
     availability: 'Today'
   }, {

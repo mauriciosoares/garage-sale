@@ -161,7 +161,7 @@ window.products = [{
   storeLink: null,
   availability: 'Today'
 }, {
-  isReserved: true,
+  isReserved: false,
   images: 4,
   description: `This wardrobe was made using the custom IKEA tool. We bought the pieces separately, the link below you'll find the receipt with all the items bought`,
   name: 'Wardrobe (3 pieces)',
@@ -440,7 +440,13 @@ window.products = [{
     storeLink: null,
     availability: 'Today',
     imageLabel: 'Plant',
-    reservedPhotos: [1,2,3]
+    reservedPhotos: {
+      0: true,
+      1: true,
+      2: true,
+      3: true,
+      8: true
+    }
   }, {
     isReserved: false,
     images: 1,

@@ -49,7 +49,7 @@ class Hello extends React.Component {
                   <div>
                     {p.imageLabel &&
                       <div className="image-label">
-                      {p.imageLabel} {imageIndex + 1} {(p.reservedPhotos && p.reservedPhotos.find(n => n === imageIndex)) && 'RESERVED'}
+                      {p.imageLabel} {imageIndex + 1} {(p.reservedPhotos && p.reservedPhotos[imageIndex]) && 'RESERVED'}
                       </div>
                     }
 

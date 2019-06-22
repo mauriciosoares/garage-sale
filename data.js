@@ -350,7 +350,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: true,
+    isReserved: false,
     images: 1,
     description: 'Just a ton of hangers',
     name: 'Hangers (2 EUR for 15)',

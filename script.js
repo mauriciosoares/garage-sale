@@ -47,7 +47,12 @@ class Hello extends React.Component {
               <div id={`p${i + 1}`} className="carousel">
                 {Array(p.images).fill('').map((item, imageIndex) => (
                   <div>
-                    {p.imageLabel && <div className="image-label">{p.imageLabel} {imageIndex + 1}</div>}
+                    {p.imageLabel &&
+                      <div className="image-label">
+                      {p.imageLabel} {imageIndex + 1} {(p.reservedPhotos && p.reservedPhotos.find(n => n === imageIndex)) && 'RESERVED'}
+                      </div>
+                    }
+
                     <img className="lazy" key={imageIndex} src={`images/p${p.id}${imageIndex + 1}.jpg`} />
                   </div>
                 ))}

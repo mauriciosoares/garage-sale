@@ -439,7 +439,8 @@ window.products = [{
     sellingPrice: 0,
     storeLink: null,
     availability: 'Today',
-    imageLabel: 'Plant'
+    imageLabel: 'Plant',
+    reservedPhotos: [1,2,3]
   }, {
     isReserved: false,
     images: 1,

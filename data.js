@@ -1,5 +1,5 @@
 window.products = [{
-  isReserved: false,
+  isReserved: true,
   images: 1,
   description: 'Start Juggling in no time with these magic balls!',
   name: 'Magic Juggling Balls',

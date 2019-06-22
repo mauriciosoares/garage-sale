@@ -296,12 +296,12 @@ window.products = [{
     storeLink: 'https://www.ikea.com/de/de/p/marjun-2-gardinenschals-verdunk-grau-30298424/',
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Just a Fan, working perfectly',
     name: 'Fan',
     paidPrice: 50,
-    sellingPrice: 15,
+    sellingPrice: 0,
     storeLink: null,
     availability: 'Mid of July'
   }, {

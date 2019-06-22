@@ -125,7 +125,7 @@ window.products = [{
   storeLink: 'https://www.xxxlutz.de/p/linea-natura-schreibtisch-buche-massiv-buchefarben-001665000401',
   availability: 'Mid of July'
 }, {
-  isReserved: false,
+  isReserved: true,
   images: 2,
   description: 'This keyboard is brand new, was bought a couple of months ago, and unfortunately was not very used... Comes with the stand and the chair',
   name: 'Yamaha NP-12 B Set',
@@ -197,7 +197,7 @@ window.products = [{
   storeLink: null,
   availability: 'Mid of July'
 }, {
-  isReserved: false,
+  isReserved: true,
   images: 1,
   description: 'Excelent conditions :)',
   name: 'Toaster',

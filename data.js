@@ -120,7 +120,7 @@ window.products = [{
   images: 2,
   description: 'This keyboard is brand new, was bought a couple of months ago, and unfortunately was not very used... Comes with the stand and the chair',
   name: 'Yamaha NP-12 B Set',
-  paidPrice: 200,
+  paidPrice: 65,
   sellingPrice: 80,
   storeLink: 'https://www.musicstore.de/en_DE/EUR/Yamaha-NP-12-B/art-KEY0004442-000V000112476',
   availability: 'Today'
@@ -139,7 +139,7 @@ window.products = [{
   description: 'This projector is used in my bedroom for watching movies. Unfortunately the fans make quite a lot of noise, and the image has a very small smudge on it, but the image quality is excelent (720p)',
   name: 'CRENOVA Projector',
   paidPrice: 200,
-  sellingPrice: 70,
+  sellingPrice: 50,
   storeLink: null,
   availability: 'Today'
 }, {
@@ -229,7 +229,7 @@ window.products = [{
     description: `Used for a couple of months, it's been in the box for over a year, almost new`,
     name: 'Microwave Oven',
     paidPrice: 150,
-    sellingPrice: 50,
+    sellingPrice: 40,
     storeLink: null,
     availability: 'Today'
   }, {
@@ -256,7 +256,7 @@ window.products = [{
     description: 'Nothing fancy, but works perfectly, no scratches or dead pixels',
     name: 'Computer Monitor Samsung',
     paidPrice: null,
-    sellingPrice: 40,
+    sellingPrice: 30,
     storeLink: null,
     availability: 'End of July'
   }, {
@@ -312,7 +312,7 @@ window.products = [{
     paidPrice: 20,
     sellingPrice: 0,
     storeLink: null,
-    availability: 'Today'
+    availability: 'End of July'
   }, {
     isReserved: false,
     images: 1,

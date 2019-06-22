@@ -15,7 +15,7 @@ window.products = [{
   paidPrice: 80,
   sellingPrice: 20,
   storeLink: 'https://www.hoeffner.de/artikel/13318178',
-  availability: 'July'
+  availability: 'Mid of July'
 }, {
   isReserved: true,
   images: 2,
@@ -51,7 +51,7 @@ window.products = [{
   paidPrice: 470,
   sellingPrice: 120,
   storeLink: 'https://www.ikea.com/de/de/p/norsborg-3er-sofa-finnsta-weiss-weiss-birke-s39124943/',
-  availability: 'July'
+  availability: 'Mid of July'
 }, {
   isReserved: true,
   images: 1,
@@ -78,7 +78,7 @@ window.products = [{
   paidPrice: 240,
   sellingPrice: 80,
   storeLink: 'https://www.xxxlutz.de/p/carryhome-lowboard-akazie-naturfarben-001944001103',
-  availability: 'July'
+  availability: 'Mid of July'
 }, {
   isReserved: true,
   images: 2,
@@ -87,7 +87,7 @@ window.products = [{
   paidPrice: 100,
   sellingPrice: 80,
   storeLink: null,
-  availability: 'July'
+  availability: 'Mid of July'
 }, {
   isReserved: true,
   images: 2,
@@ -105,7 +105,7 @@ window.products = [{
   paidPrice: 100,
   sellingPrice: 30,
   storeLink: null,
-  availability: 'July'
+  availability: 'Mid of July'
 }, {
   isReserved: true,
   images: 2,
@@ -114,7 +114,7 @@ window.products = [{
   paidPrice: 160,
   sellingPrice: 60,
   storeLink: 'https://www.xxxlutz.de/p/linea-natura-schreibtisch-buche-massiv-buchefarben-001665000401',
-  availability: 'July'
+  availability: 'Mid of July'
 }, {
   isReserved: false,
   images: 2,
@@ -177,7 +177,7 @@ window.products = [{
   paidPrice: 200,
   sellingPrice: 70,
   storeLink: 'https://www.ikea.com/de/de/p/hemnes-bettgestell-weiss-gebeizt-s89931560/',
-  availability: 'July'
+  availability: 'Mid of July'
 }, {
   isReserved: true,
   images: 4,
@@ -186,7 +186,7 @@ window.products = [{
   paidPrice: 600,
   sellingPrice: 250,
   storeLink: null,
-  availability: 'July'
+  availability: 'Mid of July'
 }, {
   isReserved: false,
   images: 1,
@@ -213,7 +213,7 @@ window.products = [{
   paidPrice: 130,
   sellingPrice: 40,
   storeLink: 'https://www.amazon.de/Philips-HR2195-08-Standmixer-Milchshakes/dp/B00UTJQ1RI/ref=asc_df_B00UTJQ1RI/?tag=googshopde-21&linkCode=df0&hvadid=231900326073&hvpos=1o1&hvnetw=g&hvrand=16739498211799897608&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9043060&hvtargid=pla-422531396823&psc=1&th=1&psc=1',
-  availability: 'July'
+  availability: 'Mid of July'
 }, {
   isReserved: true,
   images: 1,
@@ -258,7 +258,7 @@ window.products = [{
     paidPrice: null,
     sellingPrice: 30,
     storeLink: null,
-    availability: 'End of July'
+    availability: 'Mid of July'
   }, {
     isReserved: false,
     images: 1,
@@ -294,7 +294,7 @@ window.products = [{
     paidPrice: 50,
     sellingPrice: 15,
     storeLink: null,
-    availability: 'End of July'
+    availability: 'Mid of July'
   }, {
     isReserved: false,
     images: 1,
@@ -312,7 +312,7 @@ window.products = [{
     paidPrice: 20,
     sellingPrice: 0,
     storeLink: null,
-    availability: 'End of July'
+    availability: 'Mid of July'
   }, {
     isReserved: false,
     images: 1,
@@ -321,7 +321,7 @@ window.products = [{
     paidPrice: 0,
     sellingPrice: 0,
     storeLink: null,
-    availability: 'End of July'
+    availability: 'Mid of July'
   }, {
     isReserved: false,
     images: 1,
@@ -339,7 +339,7 @@ window.products = [{
     paidPrice: 50,
     sellingPrice: 15,
     storeLink: null,
-    availability: 'End of July'
+    availability: 'Mid of July'
   }, {
     isReserved: false,
     images: 1,
@@ -429,7 +429,7 @@ window.products = [{
     paidPrice: 24,
     sellingPrice: 10,
     storeLink: 'https://www.ikea.com/de/de/p/not-deckenfluter-schwarz-20139874/',
-    availability: 'End of July'
+    availability: 'Mid of July'
   }, {
     isReserved: false,
     images: 9,
@@ -456,6 +456,141 @@ window.products = [{
     sellingPrice: 10,
     storeLink: null,
     availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Comes with 18 plates',
+    name: '18 IKEA Plates set',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Mid of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Different kinds of cups and mugs',
+    name: 'IKEA cups and others',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Mid of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Nice glasses to drink wine',
+    name: '5 IKEA Wine Glasses',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Mid of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'A bunch of them',
+    name: 'Plastic boxes',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Mid of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Used, but working just fine :)',
+    name: 'IKEA Pans',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Mid of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Working just fine',
+    name: 'Pressure Pan',
+    paidPrice: 50,
+    sellingPrice: 5,
+    storeLink: 'https://www.amazon.de/Tefal-P2530738-Schnellkochtopf-inklusive-Korbeinsatz/dp/B00RHK1A8W/ref=asc_df_B00RHK1A8W/?tag=googshopde-21&linkCode=df0&hvadid=256163654603&hvpos=1o3&hvnetw=g&hvrand=8354641027864228061&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9043060&hvtargid=pla-421677713003&psc=1&th=1&psc=1',
+    availability: 'Mid of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Just here laying around',
+    name: 'Bunch of kitchen stuff',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Mid of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: ':)',
+    name: 'IKEA Kitchen Wooden Board',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Mid of July'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Used once',
+    name: 'Small Hacksaw',
+    paidPrice: 0,
+    sellingPrice: 10,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Never used',
+    name: 'Screws',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: ':)',
+    name: 'Bubble Level',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: 'Useful for assembling furniture',
+    name: `Clips`,
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 2,
+    description: 'Also useful for screwing',
+    name: 'Drilling Machine',
+    paidPrice: 0,
+    sellingPrice: 10,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 1,
+    description: ':)',
+    name: 'Tool Box',
+    paidPrice: 0,
+    sellingPrice: 10,
+    storeLink: null,
+    availability: 'Today'
+  }, {
+    isReserved: false,
+    images: 3,
+    description: 'A bunch of them, most from IKEA',
+    name: 'Cutlery',
+    paidPrice: 0,
+    sellingPrice: 0,
+    storeLink: null,
+    availability: 'Mid of July'
   }]
 
 window.products = window.products.map((product, index) => Object.assign(product, {

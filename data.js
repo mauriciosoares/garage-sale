@@ -168,7 +168,7 @@ window.products = [{
   paidPrice: 1170,
   sellingPrice: 400,
   storeLink: 'https://drive.google.com/file/d/1QP9KgaS7_lnbLAu1lnWTYhYUdMQ0t7hE/view?usp=sharing',
-  availability: 'July'
+  availability: 'Today'
 }, {
   isReserved: true,
   images: 2,

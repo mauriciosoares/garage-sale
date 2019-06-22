@@ -323,7 +323,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'A bit old, but works perfectly',
     name: 'Hair Dryier (FREE)',
@@ -350,10 +350,10 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Just a ton of hangers',
-    name: 'Hangers (5 EUR for 15)',
+    name: 'Hangers (2 EUR for 15)',
     paidPrice: 0,
     sellingPrice: 5,
     storeLink: null,
@@ -404,7 +404,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Used to adjust your back, brand new',
     name: 'Shoulder Support',
@@ -440,7 +440,7 @@ window.products = [{
     storeLink: 'https://www.ikea.com/de/de/p/not-deckenfluter-schwarz-20139874/',
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 9,
     description: 'We need someone that will take good care of our plants S2, please check the availability of the plant',
     name: 'Plants, plants, and more plants!',
@@ -495,7 +495,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'A bunch of them',
     name: 'Plastic boxes',
@@ -504,7 +504,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Used, but working just fine :)',
     name: 'IKEA Pans',
@@ -522,7 +522,7 @@ window.products = [{
     storeLink: 'https://www.amazon.de/Tefal-P2530738-Schnellkochtopf-inklusive-Korbeinsatz/dp/B00RHK1A8W/ref=asc_df_B00RHK1A8W/?tag=googshopde-21&linkCode=df0&hvadid=256163654603&hvpos=1o3&hvnetw=g&hvrand=8354641027864228061&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9043060&hvtargid=pla-421677713003&psc=1&th=1&psc=1',
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Just here laying around',
     name: 'Bunch of kitchen stuff',

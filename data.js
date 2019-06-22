@@ -4,7 +4,7 @@ window.products = [{
   description: 'Start Juggling in no time with these magic balls!',
   name: 'Magic Juggling Balls',
   paidPrice: 2,
-  sellingPrice: 45000,
+  sellingPrice: 750,
   storeLink: null,
   availability: 'Today'
 }, {

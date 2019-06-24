@@ -233,7 +233,7 @@ window.products = [{
   storeLink: 'https://www.saturn.de/de/product/_philips-hd-9640-00-airfryer-turbostar-2259974.html',
   availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: `Used for a couple of months, it's been in the box for over a year, almost new`,
     name: 'Microwave Oven',
@@ -242,7 +242,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 2,
     description: 'Quite old, but still functional',
     name: 'Luggage (FREE)',
@@ -260,7 +260,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Nothing fancy, but works perfectly, no scratches or dead pixels',
     name: 'Computer Monitor Samsung',
@@ -278,7 +278,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'The stand is a bit old, but still works. The microphone is NOT included',
     name: 'Mic Stand and noise filter (FREE)',
@@ -287,7 +287,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: '2 pieces, 145x300cm each, Almost new Blackout courtains, used for ~4 months.',
     name: 'IKEA Blackout Courtins',
@@ -305,7 +305,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'We have quite a few things, you can come over and just take them for free',
     name: 'Decoration items (including this head)',
@@ -314,7 +314,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Works perfectly',
     name: 'Weighing Balance',
@@ -332,7 +332,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Almost new',
     name: 'Ladder',
@@ -341,7 +341,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'A bit old, but works perfectly',
     name: 'Vacuum Cleaner',
@@ -350,7 +350,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Just a ton of hangers, just tell me how many you want',
     name: 'Hangers (Around 160)',
@@ -386,7 +386,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'This mattress comes with its own air system, just plug it in the electricity and it fills automatically',
     name: 'Inflatable Mattress (Couple)',
@@ -395,7 +395,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Perfect conditions',
     name: 'Shopping Trolley',
@@ -413,7 +413,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Brand new, was only used once',
     name: 'Lady Shaver (used once, FREE)',
@@ -422,7 +422,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Very good Iron, works perfectly',
     name: 'Philips Azur Performer Iron',
@@ -459,7 +459,7 @@ window.products = [{
       8: true
     }
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: '2x 1kg weight, 2x 3kg weight, 2 leg weights and an arm phone holder',
     name: 'Fitness stuff',
@@ -468,7 +468,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Comes with 18 plates',
     name: '18 IKEA Plates set',
@@ -477,7 +477,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Different kinds of cups and mugs',
     name: 'IKEA cups and others',
@@ -486,7 +486,7 @@ window.products = [{
     storeLink: null,
     availability: 'Mid of July'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Nice glasses to drink wine',
     name: '5 IKEA Wine Glasses',
@@ -549,7 +549,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Never used',
     name: 'Screws',
@@ -567,7 +567,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: 'Useful for assembling furniture',
     name: `Clips`,
@@ -585,7 +585,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 1,
     description: ':)',
     name: 'Tool Box',
@@ -594,7 +594,7 @@ window.products = [{
     storeLink: null,
     availability: 'Today'
   }, {
-    isReserved: false,
+    isReserved: true,
     images: 3,
     description: 'A bunch of them, most from IKEA',
     name: 'Cutlery',

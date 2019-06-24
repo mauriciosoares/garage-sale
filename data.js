@@ -143,7 +143,7 @@ window.products = [{
   storeLink: 'https://www.musicstore.de/en_DE/EUR/Schecter-C-6-Deluxe-Satin-Black/art-GIT0036854-000',
   availability: 'Today'
 }, {
-  isReserved: false,
+  isReserved: true,
   images: 3,
   description: 'This projector is used in my bedroom for watching movies. Unfortunately the fans make quite a lot of noise, and the image has a very small smudge on it, but the image quality is excelent (720p)',
   name: 'CRENOVA Projector',
@@ -152,7 +152,7 @@ window.products = [{
   storeLink: null,
   availability: 'Today'
 }, {
-  isReserved: false,
+  isReserved: true,
   images: 2,
   description: 'Simple night stand, in good conditions',
   name: 'Night Stand',
@@ -206,7 +206,7 @@ window.products = [{
   storeLink: null,
   availability: 'Today'
 }, {
-  isReserved: false,
+  isReserved: true,
   images: 2,
   description: 'Excelent conditions :)',
   name: 'Water Heater',

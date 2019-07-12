@@ -182,7 +182,7 @@ window.products = [{
   isReserved: true,
   images: 2,
   description: 'Just a bed, in good conditions :)',
-  name: 'Bed + Mattress + Bed Stuff',
+  name: 'Bed + Mattress',
   paidPrice: 560,
   sellingPrice: 100,
   storeLink: 'https://www.ikea.com/de/de/p/hemnes-bettgestell-weiss-gebeizt-s89931560/',

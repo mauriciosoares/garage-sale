@@ -179,7 +179,7 @@ window.products = [{
   storeLink: 'https://drive.google.com/file/d/1QP9KgaS7_lnbLAu1lnWTYhYUdMQ0t7hE/view?usp=sharing',
   availability: 'Today'
 }, {
-  isReserved: true,
+  isReserved: false,
   images: 2,
   description: 'Just a bed, in good conditions :)',
   name: 'Bed + Mattress',
